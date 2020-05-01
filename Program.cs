@@ -51,7 +51,6 @@ namespace HiusFileUploadClient
         /// </summary>
         public int CustomerID = 0;
 
-
         public int Sequence = 0;
 
         #endregion
@@ -249,9 +248,10 @@ namespace HiusFileUploadClient
                     "3",
                     "request6",
                     "VB",
-                    "x:4",
-                    null,
+                    "x:3", // GID
+                    null, // WID
                     DateTime.Now.AddDays(6).ToString("yyyy-MM-dd"),
+                    "x:2", // Verweis auf Lieferadresse
                     "Bernasconi",
                     "Maria"
                 }));
